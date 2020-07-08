@@ -6,6 +6,9 @@
 
 # YOUR CODE HERE
 
+def f1(num1, num2):
+    return num1 + num2
+
 print(f1(1, 2))
 
 # Write a function f2 that takes any number of integer arguments and returns the
@@ -13,6 +16,16 @@ print(f1(1, 2))
 # Note: Google for "python arbitrary arguments" and look for "*args"
 
 # YOUR CODE HERE
+
+def f2(x, *argv):
+    if(len(argv) == 0):
+        for 
+    else:
+        sum = x
+        for i in argv:
+            sum += i
+        return sum 
+    
 
 print(f2(1))                    # Should print 1
 print(f2(1, 3))                 # Should print 4
