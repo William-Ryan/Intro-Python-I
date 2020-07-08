@@ -21,7 +21,6 @@ with open("foo.txt") as fp:
 
 # YOUR CODE HERE
 f = open("bar.txt", "w")
-f.read()
 f.write(
     """Line 1
       Line 2
